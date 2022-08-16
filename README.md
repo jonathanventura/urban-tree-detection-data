@@ -10,7 +10,7 @@ This repository provides a dataset for training and evaluating tree detectors in
 
 The dataset covers five cities in California.  The following table provides a summary:
 
-| City         | Year | Climate Zone              | Number of Tiles | Number of Trees |
+| City         | Year | Climate Zone              | Number of Crops | Number of Trees |
 |--------------|------|---------------------------|-----------------|-----------------|
 | Chico        | 2018 | Inland Valleys            |              99 |           9,232 |
 | Claremont    | 2020 | Inland Empire             |              92 |           4,680 |
@@ -31,7 +31,7 @@ The bands in the imagery are as follows:
 ### Data organization ###
 
 The dataset is in the `data` directory, with one sub-directory for each city. 
-* Images are stored in the `patches` directory as TIFF files.
+* Images are stored in the `images` directory as TIFF files.
 * Each image has an associated CSV file in the `csv` directory containing tree locations in 2D pixel coordinates.
 * Geo-referenced tree locations for each image are stored in the GeoJSON format in the `json` directory.  Coordinates are stored in the local UTM zone.
 
