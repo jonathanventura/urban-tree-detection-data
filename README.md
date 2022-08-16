@@ -35,6 +35,8 @@ The dataset is in the `data` directory, with one sub-directory for each city.
 * Each image has an associated CSV file in the `csv` directory containing tree locations in 2D pixel coordinates.
 * Geo-referenced tree locations for each image are stored in the GeoJSON format in the `json` directory.  Coordinates are stored in the local UTM zone.
 
+The files `train.txt`, `val.txt`, and `test.txt` specify the splits that were used in our paper.
+
 ### Citation ###
 
 NAIP on AWS was accessed on January 28, 2022 from https://registry.opendata.aws/naip.
