@@ -30,10 +30,9 @@ The bands in the imagery are as follows:
 
 ### Data organization ###
 
-The dataset is in the `data` directory, with one sub-directory for each city. 
 * Images are stored in the `images` directory as TIFF files.
 * Each image has an associated CSV file in the `csv` directory containing tree locations in 2D pixel coordinates.
-* Geo-referenced tree locations for each image are stored in the GeoJSON format in the `json` directory.  Coordinates are stored in the local UTM zone.
+* Each image has an associated GeoJSON file in the `json` directory containing geo-referenced tree locations.  Coordinates are stored in the local UTM zone.
 
 The files `train.txt`, `val.txt`, and `test.txt` specify the splits that were used in our paper.
 
