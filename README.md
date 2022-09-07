@@ -43,9 +43,12 @@ NAIP on AWS was accessed on January 28, 2022 from https://registry.opendata.aws/
 
 If you use this data, please cite our paper:
 
-Ventura, J., Honsberger, M., Gonsalves, C., Rice, J., Pawlak, C., Love, N., Han, S., Nguyen, V., Sugano, K., Doremus, J., Fricker, G. A., Yost, J., Ritter, M. (2022). Individual Tree Detection in Large-Scale Urban Environments using High-Resolution Multispectral Imagery.  (In preparation)
+J. Ventura, M. Honsberger, C. Gonsalves, J. Rice, C. Pawlak, N.L.R. Love, S. Han, V. Nguyen, K. Sugano, J. Doremus, G.A. Fricker, J. Yost, and M. Ritter. ["Individual Tree Detection in Large-Scale Urban Environments using High-Resolution Multispectral Imagery."](https://doi.org/10.48550/arXiv.2208.10607)  arXiv:2208.10606 [cs], Aug. 2022.
 
 ### Acknowledgments ###
 
 This project was funded by CAL FIRE (award number: 8GB18415) the US Forest Service (award number: 21-CS-11052021-201), and an incubation grant from the Data Science Strategic Research Initiative at California Polytechnic State University.
 
+### License ###
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
