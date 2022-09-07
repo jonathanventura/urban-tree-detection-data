@@ -12,12 +12,12 @@ The dataset covers five cities in California.  The following table provides a su
 
 | City         | Year | Climate Zone              | Number of Crops | Number of Trees |
 |--------------|------|---------------------------|-----------------|-----------------|
-| Chico        | 2018 | Inland Valleys            |              99 |           9,232 |
-| Claremont    | 2020 | Inland Empire             |              92 |           4,680 |
-| Long Beach   | 2020 | Southern California Coast |             100 |           5,846 |
-| Palm Springs | 2020 | Southwest Desert          |             100 |           8,374 |
-| Riverside    | 2020 | Inland Empire             |              90 |           6,019 |
-| Santa Monica | 2020 | Southern California Coast |              92 |           5,842 |
+| Chico        | 2018 | Inland Valleys            |              99 |           8,187 |
+| Claremont    | 2020 | Inland Empire             |              92 |           4,678 |
+| Long Beach   | 2020 | Southern California Coast |             100 |           5,845 |
+| Palm Springs | 2020 | Southwest Desert          |             100 |           4,109 |
+| Riverside    | 2020 | Inland Empire             |              90 |           4,089 |
+| Santa Monica | 2020 | Southern California Coast |              92 |           5,841 |
 
 The bands in the imagery are as follows:
 
