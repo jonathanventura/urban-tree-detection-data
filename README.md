@@ -12,7 +12,7 @@ This repository provides a dataset for training and evaluating tree detectors in
 The dataset covers eight cities and six climate zones in California across three years.  The following table provides a summary.  The three right-most columns give the number of annotated trees in each year.
 
 | City         | Climate Zone              | Number of Crops |  2016 |  2018 |  2020 |
-|--------------|---------------------------|-----------------|-----------------------|
+|--------------|---------------------------|-----------------|-------|-------|-------|
 | Bishop       | Interior West             |              10 |     - |     - |   682 |
 | Chico        | Inland Valleys            |              99 |     - | 8,187 | 8,164 |
 | Claremont    | Inland Empire             |              92 | 4,858 | 4,880 | 4,678 |
