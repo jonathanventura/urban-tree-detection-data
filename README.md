@@ -12,8 +12,10 @@ The dataset covers five cities in California.  The following table provides a su
 
 | City         | Year | Climate Zone              | Number of Crops | Number of Trees |
 |--------------|------|---------------------------|-----------------|-----------------|
+| Bishop       | 2020 | Interior West             |              10 |             682 |
 | Chico        | 2018 | Inland Valleys            |              99 |           8,187 |
 | Claremont    | 2020 | Inland Empire             |              92 |           4,678 |
+| Eureka       | 2020 | Northern California Coast |              21 |           2,134 |
 | Long Beach   | 2020 | Southern California Coast |             100 |           5,845 |
 | Palm Springs | 2020 | Southwest Desert          |             100 |           4,109 |
 | Riverside    | 2020 | Inland Empire             |              90 |           4,089 |
