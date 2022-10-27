@@ -2,24 +2,25 @@
 
 This repository provides a dataset for training and evaluating tree detectors in urban environments with aerial imagery.  The dataset includes:
 
-* 256x256 crops of 60 cm aerial imagery from the 2020 NAIP imagery program across six cities in California
+* 256x256 crops of 60 cm aerial imagery from the 2016, 2018, and 2020 NAIP across eight cities in California
+* A total of 1,651 images and 95,972 annotated trees 
 * Point annotations for all trees visible in the imagery
 * A train/val/test split to replicate or compare against the results in our paper
 
 ### Data description ###
 
-The dataset covers five cities in California.  The following table provides a summary:
+The dataset covers eight cities and six climate zones in California across three years.  The following table provides a summary.  The three right-most columns give the number of annotated trees in each year.
 
-| City         | Year | Climate Zone              | Number of Crops | Number of Trees |
-|--------------|------|---------------------------|-----------------|-----------------|
-| Bishop       | 2020 | Interior West             |              10 |             682 |
-| Chico        | 2018 | Inland Valleys            |              99 |           8,187 |
-| Claremont    | 2020 | Inland Empire             |              92 |           4,678 |
-| Eureka       | 2020 | Northern California Coast |              21 |           2,134 |
-| Long Beach   | 2020 | Southern California Coast |             100 |           5,845 |
-| Palm Springs | 2020 | Southwest Desert          |             100 |           4,109 |
-| Riverside    | 2020 | Inland Empire             |              90 |           4,089 |
-| Santa Monica | 2020 | Southern California Coast |              92 |           5,841 |
+| City         | Climate Zone              | Number of Crops |  2016 |  2018 |  2020 |
+|--------------|---------------------------|-----------------|-----------------------|
+| Bishop       | Interior West             |              10 |     - |     - |   682 |
+| Chico        | Inland Valleys            |              99 |     - | 8,187 | 8,164 |
+| Claremont    | Inland Empire             |              92 | 4,858 | 4,880 | 4,678 |
+| Eureka       | Northern California Coast |              21 |     - |     - | 2,134 |
+| Long Beach   | Southern California Coast |             100 | 6,470 | 6,403 | 5,845 |
+| Palm Springs | Southwest Desert          |             100 | 4,433 | 4,707 | 4,109 |
+| Riverside    | Inland Empire             |              90 | 5,015 | 4,400 | 4,087 |
+| Santa Monica | Southern California Coast |              92 | 5,824 | 5,830 | 5,841 |
 
 The bands in the imagery are as follows:
 
