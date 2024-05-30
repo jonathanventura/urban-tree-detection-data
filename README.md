@@ -5,7 +5,7 @@ This repository provides a dataset for training and evaluating tree detectors in
 * 256x256 crops of 60 cm aerial imagery from the 2016, 2018, and 2020 NAIP across eight cities in California
 * A total of 1,651 images and 95,972 annotated trees 
 * Point annotations for all trees visible in the imagery
-* A train/val/test split to replicate or compare against the results in our paper
+* Train/val/test splits to replicate or compare against the results in our paper
 
 ### Data description ###
 
@@ -38,7 +38,7 @@ The bands in the imagery are as follows:
 * Each image has an associated GeoJSON file in the `json` directory containing geo-referenced tree locations.  Coordinates are stored in the local UTM zone.
 * A missing .csv or .json file means that there are no trees in the image.
 
-The files `train.txt`, `val.txt`, and `test.txt` specify the splits that were used in our paper.
+The files `train.txt`, `val.txt`, and `test.txt` specify the splits using all of the data.  The files `train_socal.txt`, `val_socal.txt`, and `test_socal.txt` specify the splits using the Southern California 2020 subset of the data (only 2020 data from Claremont, Long Beach, Palm Springs, Riverside, and Santa Monica).
 
 ### Citation ###
 
@@ -46,7 +46,7 @@ NAIP on AWS was accessed on January 28, 2022 from https://registry.opendata.aws/
 
 If you use this data, please cite our paper:
 
-J. Ventura, C. Pawlak, M. Honsberger, C. Gonsalves, J. Rice, N.L.R. Love, S. Han, V. Nguyen, K. Sugano, J. Doremus, G.A. Fricker, J. Yost, and M. Ritter. ["Individual Tree Detection in Large-Scale Urban Environments using High-Resolution Multispectral Imagery."](https://doi.org/10.48550/arXiv.2208.10607)  arXiv:2208.10606 [cs], Oct. 2022.
+J. Ventura, C. Pawlak, M. Honsberger, C. Gonsalves, J. Rice, N.L.R. Love, S. Han, V. Nguyen, K. Sugano, J. Doremus, G.A. Fricker, J. Yost, and M. Ritter (2024). [Individual Tree Detection in Large-Scale Urban Environments using High-Resolution Multispectral Imagery.](https://www.sciencedirect.com/science/article/pii/S1569843224002024)  International Journal of Applied Earth Observation and Geoinformation, 130, 103848.
 
 ### Acknowledgments ###
 
