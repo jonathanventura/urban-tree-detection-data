@@ -46,7 +46,7 @@ NAIP on AWS was accessed on January 28, 2022 from https://registry.opendata.aws/
 
 If you use this data, please cite our paper:
 
-J. Ventura, M. Honsberger, C. Gonsalves, J. Rice, C. Pawlak, N.L.R. Love, S. Han, V. Nguyen, K. Sugano, J. Doremus, G.A. Fricker, J. Yost, and M. Ritter. ["Individual Tree Detection in Large-Scale Urban Environments using High-Resolution Multispectral Imagery."](https://doi.org/10.48550/arXiv.2208.10607)  arXiv:2208.10606 [cs], Aug. 2022.
+J. Ventura, C. Pawlak, M. Honsberger, C. Gonsalves, J. Rice, N.L.R. Love, S. Han, V. Nguyen, K. Sugano, J. Doremus, G.A. Fricker, J. Yost, and M. Ritter. ["Individual Tree Detection in Large-Scale Urban Environments using High-Resolution Multispectral Imagery."](https://doi.org/10.48550/arXiv.2208.10607)  arXiv:2208.10606 [cs], Oct. 2022.
 
 ### Acknowledgments ###
 
