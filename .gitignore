@@ -1,2 +1,4 @@
 lightning.*
 *.pyc
+*.pyo
+*.chk
