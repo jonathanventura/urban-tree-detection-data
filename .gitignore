@@ -18,6 +18,7 @@ lightning_logs/
 
 # Checkpoint files
 
+*.csv
 *.chk
 lightning.*
 *.pyc
