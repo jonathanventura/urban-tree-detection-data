@@ -1,0 +1,26 @@
+# macOS
+
+.DS_Store
+
+# Python cache files
+
+__pycache__/
+
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+
+.ipynb_checkpoints/
+
+# PyTorch Lightning logs
+
+lightning_logs/
+
+# Checkpoint files
+
+*.csv
+*.chk
+lightning.*
+*.pyc
+*.pyo
+*.chk
